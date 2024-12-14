@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "/usr/bin/g++-14",  // Adjust to match your installed GCC version (e.g., g++-13)
+            "args": [
+                "-fopenmp",          // Enable OpenMP
+                "-g",                // Enable debugging information
+                "main.cpp",          // Source file to compile
+                "-o", "main"         // Output file name (the executable)
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true    // Makes this the default build task
+            },
+            "problemMatcher": ["$gcc"],  // Helps VS Code parse GCC output for errors/warnings
+            "detail": "Compiles main.cpp with OpenMP support using GCC"
+        }
+    ]
+}
