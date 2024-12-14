@@ -1,5 +1,9 @@
 # Tour-d-Algorithms-OpenMP-Qualifier
 
+In this assignment, we investigate parallel programming through sorting algorithms using OpenMP. OpenMP is probably the easiest method to achieve a degugged
+parallel program, and has the potential for very good performance.
+
+
 Group Members:
 _____________________________________________________________
 Prashanna Raj Pandit		ppandit@siue.edu
